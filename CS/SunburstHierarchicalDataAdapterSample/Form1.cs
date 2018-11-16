@@ -37,7 +37,6 @@ namespace SunburstHierarchicalDataAdapterSample {
             sunburstControl.DataAdapter = dataAdapter;
 
             sunburstControl.Colorizer = new SunburstPaletteColorizer {
-                VaryColorInGroup = false,
                 Palette = Palette.Office2019Palette
             };
 
